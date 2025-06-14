@@ -57,6 +57,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
+      { text: "学习专区", link: "/学习专区" },
       { text: "自然语言处理", link: "/自然语言处理" },
     ],
 

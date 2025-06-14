@@ -2,7 +2,7 @@
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { h } from "vue";
-import LabList from "./components/LabList.vue";
+import NLPPage from "./components/NLPPage.vue";
 import "./style.css";
 
 export default {
@@ -14,6 +14,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-    app.component("LabList", LabList);
+    app.component("NLPPage", NLPPage);
   },
 } satisfies Theme;
