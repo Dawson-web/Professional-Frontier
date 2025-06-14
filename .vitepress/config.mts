@@ -57,7 +57,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      // { text: 'Examples', link: '/markdown-examples' }
+      { text: "自然语言处理", link: "/自然语言处理" },
     ],
 
     sidebar: generateSidebar({
@@ -106,13 +106,5 @@ export default defineConfig({
       // keepMarkdownSyntaxFromTitle: false,
       // debugPrint: false,
     }),
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/epoch-lab/cuit-guide" },
-    ],
-  },
-
-  sitemap: {
-    hostname: "https://guide.cuit.dev",
   },
 });
